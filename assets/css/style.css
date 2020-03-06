@@ -36,6 +36,14 @@ body {
     background-color: #214AFF;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary.focus, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    color: #fefefe;
+    border: none;
+    box-shadow: 13px 22.5px 36.9px 1.1px rgba(0, 6, 255, 0.27);
+    background-color: #0006ff;
+}
+
 /*header*/
 header {
     display: flex;
@@ -78,6 +86,14 @@ header {
     padding: 7px 27px;
     margin: 22px 22px 22px 50px;
     letter-spacing: 1.4px;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary.focus, .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+    border: solid 2px #0006ff;
+    background-color: #ffffff;
+    color: #0006ff;
+    box-shadow: none;
 }
 
 .btn-secondary:hover {
@@ -127,6 +143,7 @@ header {
     padding-top: 235px;
     color: #ffffff;
     padding-bottom: 130px;
+    position: relative;
 }
 
 .main__item img {
@@ -152,7 +169,83 @@ header {
     padding-right: 30px;
 }
 
+.main:after {
+    position: absolute;
+    bottom: 295px;
+    left: 103px;
+    content: url(../img/main/mouse.png);
+}
+
+.main:before {
+    position: absolute;
+    bottom: 225px;
+    transform: rotate(-90deg);
+    left: 75px;
+    content: 'листай вниз';
+    font-size: 12px;
+}
+
+
 /*offer*/
+.offer:after {
+    height: 352px;
+    border-right: 3px solid #0006ff;
+    position: absolute;
+    top: -175px;
+    left: 110px;
+    content: '';
+}
+
+
+@media (max-width: 1400px) {
+    .offer:after {
+        left: 30px;
+    }
+    .main:before {
+        left: -5px;
+    }
+    .main:after {
+        left: 23px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .offer:after {
+        left: 50px;
+    }
+    .main:before {
+        left: 15px;
+    }
+    .main:after {
+        left: 43px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .offer:after {
+        left: 30px;
+    }
+    .main:before {
+        left: -5px;
+    }
+    .main:after {
+        left: 23px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .offer:after {
+        display: none;
+    }
+    .main:before {
+        display: none;
+    }
+    .main:after {
+        display: none;
+    }
+}
+
+
 .offer {
     background: url("../img/offer/bg.png") no-repeat top/cover;
     padding: 52px 0 75px;
@@ -182,6 +275,9 @@ header {
 }
 
 
+.offer__item:nth-child(4) .offer__list {
+    margin-left: 25px;
+}
 
 .offer__item {
     max-width: 388px;
@@ -236,6 +332,16 @@ header {
     list-style-type: none;
 }
 
+.offer__item .btn-primary {
+    padding: 23px 30px;
+}
+
+.offer {
+    position: relative;
+}
+
+
+
 /*about*/
 .about {
     background: url("../img/about/bg.png") no-repeat top/cover;
@@ -259,6 +365,19 @@ header {
 .benefit {
     padding: 60px 0 100px;
     background: #f5f1f1 url("../img/advantage/bg.png") no-repeat top/cover;
+}
+
+.benefit{
+    position: relative;
+}
+
+.benefit:after {
+    height: 352px;
+    border-right: 3px solid #0006ff;
+    position: absolute;
+    top: 0;
+    right: 130px;
+    content: '';
 }
 
 .benefit .section__title {
@@ -294,6 +413,7 @@ header {
     margin-top: 20px;
     font-size: 14px;
     color: #000000;
+    text-align: center;
 }
 
 .benefit__item img {
@@ -405,7 +525,9 @@ tr:last-child td {
 .book-form .btn-primary {
     font-size: 16px;
     padding: 20px 45px;
-    margin-top: 30px;
+    margin: 30px auto 0;
+    width: fit-content;
+    display: block;
 }
 
 .form__title {
@@ -438,6 +560,7 @@ tr:last-child td {
     border: none;
     border-bottom: 1px solid #d9d9d9;
     font-weight: 300;
+    -webkit-appearance:none;
 }
 
 .custom-range {
@@ -607,6 +730,7 @@ select:focus, input:focus, textarea:focus {
     padding: 10px 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
 }
 
 .form-outline input::placeholder {
@@ -619,6 +743,7 @@ select:focus, input:focus, textarea:focus {
     margin: 0 auto;
     display: block;
     width: fit-content;
+    padding: 20px 22px;
 }
 
 .form-outline label {
@@ -709,7 +834,92 @@ footer a:hover {
     font-weight: 800;
 }
 
+.modal .btn-primary {
+    font-size: 16px;
+    padding: 18px 45px;
+    display: block;
+    margin: 30px auto 0;
+    width: fit-content;
+}
+
+.modal-content {
+    border-radius: 50px;
+    background-color: #fefefe;
+    overflow: hidden;
+    box-shadow: 0 0 38px 0 rgba(0, 0, 0, 0.27);
+}
+
+.modal {
+    background: url("../img/modal/bg.png") no-repeat top/cover;
+}
+
+.modal-img {
+    background: url("../img/modal/header.png") no-repeat top/cover;
+    height: 274px;
+    width: 100%;
+}
+
+.modal-title {
+    margin-top: 40px;
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.modal-subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.modal-content input {
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.modal-content input[name="name"] {
+    margin-bottom: 20px;
+}
+
+.modal-form {
+    width: 100%;
+}
+
+.modal-elements {
+    padding: 0 30px 50px;
+}
+
+.modal-content input::placeholder {
+    opacity: 0.7;
+}
+
+.modal-afterword {
+    font-size: 13px;
+    max-width: 245px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.modal-afterword a {
+    color: #0006ff;
+}
+
+.modal-afterword a:hover {
+    text-decoration: none;
+    color: #0006ff;
+}
+
 @media (max-width: 1199.98px) {
+    .benefit:after {
+        right: 100px;
+    }
+
     .btn-secondary {
         margin-right: 10px;
         margin-left: 15px;
@@ -726,6 +936,10 @@ footer a:hover {
 }
 
 @media (max-width: 992px) {
+    .benefit:after {
+        display: none;
+    }
+
     .header__logo {
         margin-left: 60px;
     }
@@ -915,10 +1129,6 @@ footer a:hover {
         max-width: 290px;
     }
 
-    .offer__item:nth-child(4) .offer__list {
-        margin-left: 25px;
-    }
-
     .benefit .container:nth-child(2) {
         margin-top: 20px;
     }
@@ -954,6 +1164,25 @@ footer a:hover {
 
     .footer__item {
         padding: 25px 36px;
+    }
+
+    .modal-img {
+        height: 184px;
+    }
+
+    .modal-title {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .modal-subtitle {
+        margin-top: 13px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .modal-elements {
+        padding: 0 20px 30px;
     }
 }
 
@@ -1013,5 +1242,39 @@ footer a:hover {
     .privilege {
         padding-bottom: 70px;
     }
+
+    .modal-img {
+        height: 154px;
+    }
+
+    .modal-title {
+        margin-top: 15px;
+        font-size: 21px;
+    }
+
+    .modal-content input[name="name"] {
+        margin-bottom: 10px;
+    }
+
+    .modal-content input {
+        font-size: 13px;
+    }
+
+    .modal-subtitle {
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+
+    .modal .btn-primary {
+        font-size: 14px;
+        padding: 18px 40px;
+        margin: 25px auto 0;
+    }
+
+    .modal-afterword {
+        margin: 20px auto 0;
+    }
+
 }
 

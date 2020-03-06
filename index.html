@@ -26,7 +26,7 @@
             <a href="tel:+375293829194" class="header__phone">+375293829194</a>
             <a href="mailto:7ss7@list.ru" class="header__mail">7ss7@list.ru</a>
         </div>
-        <a href="" class="btn btn-secondary d-none d-md-block">Обратный отсчет</a>
+        <a href="" class="btn btn-secondary d-none d-md-block" data-toggle="modal" data-target="#feedbackModal">Обратный звонок</a>
     </div>
 
 
@@ -52,14 +52,14 @@
                 <div class="main__item col-xl-3 col-lg-4 col-sm-6 col-10">
                     <div class="row">
                         <img src="./assets/img/main/money.png" alt="" class="col-3 offset-1">
-                        <p class="col">От 1 500 рублей в месяц</p>
+                        <p class="col">От 50 рублей в месяц</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <p class="main__afterword col-lg-4 col-md-6"><strong>Оставьте контакты</strong> и мы рассчитаем стоимость ведения бухгалтерии, исходя из показателей вашей компании</p>
             </div>
-            <a href="" class="btn btn-primary">Обратный отсчет</a>
+            <a href="" class="btn btn-primary" data-toggle="modal" data-target="#feedbackModal">Рассчитать стоимость</a>
         </div>
     </section>
     <section class="offer">
@@ -79,7 +79,7 @@
                         <li>Проведем полную проверку</li>
                         <li>Устраним ошибки</li>
                     </ul>
-                    <a href="" class="btn btn-primary">Обратный отсчет</a>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#feedbackModal">Сменить бухгалтера</a>
                 </div>
                 <h3 class="offer__title d-block d-md-none">Бухгалтера нет, находимся в поиске</h3>
                 <div class="offer__item">
@@ -96,7 +96,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <a href="" class="btn btn-primary">Обратный отсчет</a>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#feedbackModal">Нанять бухгалтера</a>
                 </div>
             </div>
         </div>
@@ -135,15 +135,15 @@
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/2.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Расчёт и снижение налоговой нагрузки</p>
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/3.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Готовим документы для Вас и Ваших клиентов, проверим Ваших конкурентов</p>
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/4.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Восстановление кадрового и бухгалтерского учёта</p>
                         </div>
                     </div>
                 </div>
@@ -153,19 +153,19 @@
                     <div class="row flex-wrap">
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/5.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Ведение кадрового учёта</p>
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/6.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Финансовую ответственность за результат</p>
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/7.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Своевременное оформление и сдача отчётности</p>
                         </div>
                         <div class="col-12 benefit__item">
                             <img src="./assets/img/benefit/8.png" alt="">
-                            <p>Снижение затрат</p>
+                            <p>Поможем открыть юр.лицо или внести изменение в уже существующее юр.лицо</p>
                         </div>
                     </div>
                 </div>
@@ -173,8 +173,6 @@
         </div>
         <div class="container form-outline">
             <form action="">
-<!--                <fieldset>-->
-<!--                    <legend>Оставьте телефон</legend>-->
                     <div class="row">
                         <div class="col-lg-6 left">
                             <p class="form-outline__main">А Вы знали, что при грамотном
@@ -189,11 +187,10 @@
                                 <br>
                                 <input type="text" name="phone">
                             </label>
-                            <a href="" class="btn btn-primary">Обратный отсчет</a>
+                            <a href="" class="btn btn-primary">Сократить расходы</a>
                         </div>
                         <div class="col right"></div>
                     </div>
-<!--                </fieldset>-->
             </form>
         </div>
     </section>
@@ -215,8 +212,8 @@
                         <thead>
                         <tr>
                             <th scope="col">Тип</th>
-                            <th scope="col">ИП (₽/мес.)</th>
-                            <th scope="col">ООО (₽/мес.)</th>
+                            <th scope="col">ИП (руб./мес.)</th>
+                            <th scope="col">ООО (руб./мес.)</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -288,7 +285,7 @@
                             </div>
                         </div>
                         <input type="text" name="phone">
-                        <a href="" class="btn btn-primary">Обратный отсчет</a>
+                        <a href="" class="btn btn-primary">Рассчитать стоимость</a>
                     </form>
                 </div>
             </div>
@@ -296,7 +293,7 @@
     </section>
     <section class="advantage">
         <div class="container">
-            <h2 class="section__title text-center">ЧТО <span>ВЫ ПОЛУЧИТЕ</span> ПРИ РАБОТЕ С НАМИ?</h2>
+            <h2 class="section__title text-center"><span>КАК ПРОИСХОДИТ</span> РАБОТА?</h2>
             <div class="advantage__container d-flex flex-wrap justify-content-center">
                 <div class="advantage__item">
                     <img src="./assets/img/advantage/1.png" alt="" class="advantage__img">
@@ -305,30 +302,24 @@
                 </div>
                 <div class="advantage__item">
                     <img src="./assets/img/advantage/2.png" alt="" class="advantage__img">
-                    <p class="advantage__text">Подготовка и обработка
-                        первичной документации</p>
+                    <p class="advantage__text">Начисления и формирования платежных поручений по налогам и сборам, зарплаты и иных выплат сотрудникам, вашим клиентам и поставщикам </p>
                 </div>
                 <div class="advantage__item">
                     <img src="./assets/img/advantage/3.png" alt="" class="advantage__img">
-                    <p class="advantage__text">Подготовка и обработка
-                        первичной документации</p>
+                    <p class="advantage__text">Оптимизация налоговой нагрузки</p>
                 </div>
                 <div class="advantage__item">
                     <img src="./assets/img/advantage/4.png" alt="" class="advantage__img">
-                    <p class="advantage__text">Подготовка и обработка
-                        первичной документации</p>
+                    <p class="advantage__text">Формирование и сдача отчетности</p>
                 </div>
                 <div class="advantage__item">
                     <img src="./assets/img/advantage/5.png" alt="" class="advantage__img">
-                    <p class="advantage__text">Подготовка и обработка
-                        первичной документации</p>
+                    <p class="advantage__text">Коммуникация с государственными и налоговыми органами</p>
                 </div>
             </div>
         </div>
         <div class="container form-outline">
             <form action="">
-<!--                <fieldset>-->
-<!--                    <legend>Оставьте телефон</legend>-->
                     <div class="row">
                         <div class="col-lg-6 left">
                             <p class="form-outline__main">
@@ -345,11 +336,10 @@
 
                             </label>
                             <input type="text" name="phone">
-                            <a href="" class="btn btn-primary">Обратный отсчет</a>
+                            <a href="" class="btn btn-primary">Сократить расходы</a>
                         </div>
                         <div class="col right"></div>
                     </div>
-<!--                </fieldset>-->
             </form>
         </div>
     </section>
@@ -366,36 +356,22 @@
                         возвращаем все убытки из своего кармана</p>
                 </div>
                 <div class="privilege__item"><img src="assets/img/privilege/2.png" alt="" class="privilege__img">
-                    <h4 class="privilege__title">Страхование ответственности</h4>
-                    <p class="privilege__text">Мы заключаем с вами договор,
-                        в котором четко прописываем
-                        ответственность сторон.
-                        В случае ошибки по нашей вине, мы
-                        возвращаем все убытки из своего кармана</p>
+                    <h4 class="privilege__title">Оплата за
+                        фактическую работу</h4>
+                    <p class="privilege__text">Вы платите только за фактически
+                        оказанную работу</p>
                 </div>
                 <div class="privilege__item"><img src="assets/img/privilege/3.png" alt="" class="privilege__img">
-                    <h4 class="privilege__title">Страхование ответственности</h4>
-                    <p class="privilege__text">Мы заключаем с вами договор,
-                        в котором четко прописываем
-                        ответственность сторон.
-                        В случае ошибки по нашей вине, мы
-                        возвращаем все убытки из своего кармана</p>
+                    <h4 class="privilege__title">Конфиденциальность</h4>
+                    <p class="privilege__text">Вся информация, которой мы обмениваемся с вами остается полностью конфиденциальной. Подписываем NDA</p>
                 </div>
                 <div class="privilege__item"><img src="assets/img/privilege/4.png" alt="" class="privilege__img">
-                    <h4 class="privilege__title">Страхование ответственности</h4>
-                    <p class="privilege__text">Мы заключаем с вами договор,
-                        в котором четко прописываем
-                        ответственность сторон.
-                        В случае ошибки по нашей вине, мы
-                        возвращаем все убытки из своего кармана</p>
+                    <h4 class="privilege__title">Опыт работы</h4>
+                    <p class="privilege__text">Мы ежегодно проводим аттестацию своих сотрудников. Каждый наш сотрудник имеет бухгалтерский стаж не менее 10 лет</p>
                 </div>
                 <div class="privilege__item"><img src="assets/img/privilege/5.png" alt="" class="privilege__img">
-                    <h4 class="privilege__title">Страхование ответственности</h4>
-                    <p class="privilege__text">Мы заключаем с вами договор,
-                        в котором четко прописываем
-                        ответственность сторон.
-                        В случае ошибки по нашей вине, мы
-                        возвращаем все убытки из своего кармана</p>
+                    <h4 class="privilege__title">Живое общение</h4>
+                    <p class="privilege__text">В бухгалтерии много нестандартных ситуаций. Чтобы их решать по мере поступления, с Вами будет общаться команда специалистов любым удобным способом: телефонный звонок, e-mail, whatsapp, telegram и т.д</p>
                 </div>
             </div>
         </div>
@@ -419,7 +395,7 @@
                             Введите ваш вопрос<br>
                         </label>
                         <textarea name="question" rows="4" placeholder="Вопрос..."></textarea>
-                        <a href="" class="btn btn-primary">Обратный отсчет</a>
+                        <a href="" class="btn btn-primary">Задать вопрос</a>
                     </form>
                 </div>
             </div>
@@ -440,6 +416,26 @@
         </div>
     </div>
 </footer>
+
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-img"></div>
+            <div class="modal-elements">
+                <h2 class="modal-title">Оставьте контакты</h2>
+                <p class="modal-subtitle">Мы перезвоним в течение 15 минут</p>
+                <form action="" class="modal-form">
+                    <input type="text" name="name" placeholder="Введите ваше имя">
+                    <input type="text" name="phone">
+                    <a href="" class="btn btn-primary">Обратный отсчет</a>
+                </form>
+                <p class="modal-afterword">
+                    Нажимая на кнопку, вы соглашаетесь с <a href="">политикой конфеденциальности</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="./vendor/jquery/jquery-3.4.1.min.js"></script>
 <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
