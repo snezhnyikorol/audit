@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dea11c9-fc0b-48b0-a85c-a1901ff5d1d0" name="Default Changelist" comment="" />
+    <list default="true" id="0dea11c9-fc0b-48b0-a85c-a1901ff5d1d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/about/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/advantage/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/advantage/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/benefit/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/benefit/phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/feedback/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/feedback/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/footer/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/footer/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/main/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/main/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/main/folders.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/main/folders.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/main/money.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/main/money.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offer/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offer/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offer/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offer/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offer/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offer/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/offer/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/offer/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/price/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/price/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/price/calculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/price/calculator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/privilege/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/privilege/bg.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YbjNwX3uYTnq3OJjEz4eAyc6ON" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583218151412</updated>
       <workItem from="1583218156487" duration="933000" />
-      <workItem from="1583220328713" duration="63404000" />
+      <workItem from="1583220328713" duration="64658000" />
     </task>
     <servers />
   </component>
